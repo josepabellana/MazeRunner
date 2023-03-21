@@ -1,0 +1,58 @@
+*{
+    margin:0px;
+}
+body{
+    height:100%;
+}
+.container{
+    position:absolute;
+    width: 100%;
+    margin:0px;
+    display: flex;
+    justify-content:center;
+}
+.button {
+    border: solid 2px #dfdfdf;
+    border-radius: 3px;
+}
+.button:hover{
+    background-color:rgb(195, 195, 195)
+}
+.tight {
+    /* table style */
+    width: auto;
+    display: block;
+    padding:6px;
+    border-spacing: 2px;
+    box-shadow: 4px 4px 16px rgb(224,224,224);
+}
+
+.w {
+    /* wall cell */
+    border: solid 1px black;
+    border-radius:3px;
+    padding: 10px;
+    width: 16px;
+    height: 16px;
+    background-color: rgb(206, 203, 203);
+}
+.w:hover{
+    cursor: pointer;
+}
+.v {
+    /* floor cell */
+    background: linear-gradient(90deg, rgba(249,47,47,0.55), rgba(242,12,136,0.50)),  /* Chrome 10-25, Safari 5.1-6 */
+                linear-gradient(rgba(249,47,47,0.55), rgba(170,249,254,0.50)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition: all 5s ease-in-out;
+}
+
+.b{
+    background-color: rgb(104, 193, 198);
+    /*animation-delay: 3s;*/
+    transition: 1s;
+}
+
+.wall{
+    background-color: rgb(50, 50, 50);
+    transition: 2s;
+}
